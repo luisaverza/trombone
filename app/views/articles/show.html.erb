@@ -1,0 +1,14 @@
+<h2>Article <%= @article.id %></h2>
+
+<p>
+<strong>Title:</strong>
+<%= @article.title %>
+</p>
+
+<p>
+<strong>Text:</strong>
+<%= @article.text %>
+</p>
+
+<td><%= link_to 'Edit', edit_article_path(@article) %></td>
+<%= link_to 'Back to List', articles_path %>
