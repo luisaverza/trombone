@@ -6,8 +6,12 @@
 
 `bundle install`
 
+`bin/rails db:create`
+
 `bin/rails db:migrate`
+
+`cp .env.sample .env`
 
 #### Run
 
-`bundle exec rails s`
+`rails s`
