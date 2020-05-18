@@ -1,6 +1,6 @@
 ## Trombone
 
-### Getting started rails project: for study
+### Getting started rails project
 
 #### Setup
 
